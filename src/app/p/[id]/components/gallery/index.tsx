@@ -44,8 +44,9 @@ const Gallery = ({ images }: Props) => {
       <div className="flex flex-1 gap-6 max-w-full flex-col xl:flex-row-reverse xl:h-fit">
         <div className="flex-1 flex justify-center items-center h-auto mb-auto">
           <img
+            data-testid="image-full"
             src={activeImage.full}
-            alt=""
+            alt="Imagem ampliada"
             className="max-w-full w-auto max-h-[400px] xl:max-h-full"
             onClick={() => setIsFullScreenVisible(true)}
           />
@@ -60,6 +61,7 @@ const Gallery = ({ images }: Props) => {
                 index === activeIndex && "border-2 border-blue-primary"
               )}
               onClick={() => setActiveIndex(index)}
+              data-testid="image-miniature-button"
             >
               <img
                 src={miniature}

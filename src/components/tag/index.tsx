@@ -13,6 +13,7 @@ const Tag = ({
 }: PropsWithChildren<Props>) => {
   return (
     <span
+      data-testid="tag"
       className={classNames(
         "inline-flex text-[10px] xl:text-xs rounded-sm py-0.5 px-1 mb-3 w-fit uppercase",
         colors.get(color),

@@ -39,7 +39,11 @@ const CouponForm = ({ productId, className, savedCoupon }: Props) => {
           {message}
         </Tag>
       )}
-      <form className="flex flex-col gap-4" action={formAction}>
+      <form
+        className="flex flex-col gap-4"
+        action={formAction}
+        data-testid="coupon-form"
+      >
         <input type="hidden" name="productId" defaultValue={productId} />
 
         {success === true ? (
@@ -63,6 +67,7 @@ const CouponForm = ({ productId, className, savedCoupon }: Props) => {
               type="text"
               placeholder="Insira o cupom de desconto"
               className="outline-0 px-3.5 bg-white shadow h-[48px] border border-card-border focus-within:border-[#3483fa] rounded-md"
+              data-testid="coupon-input"
             />
             <input type="hidden" name="action" defaultValue="send-coupon" />
 

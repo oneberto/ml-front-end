@@ -204,6 +204,8 @@ const config: Config = {
       statements: 80,
     },
   },
+
+  setupFiles: ["./setup-tests.js"],
 };
 
 const createJestConfig = nextJest({

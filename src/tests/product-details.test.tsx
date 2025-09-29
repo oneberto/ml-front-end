@@ -17,6 +17,18 @@ jest.mock("../app/p/[id]/components/sidebar/payment-methods", () => {
   };
 });
 
+jest.mock("../app/p/[id]/components/main-information/price", () => {
+  return function MockedPaymentMethods() {
+    return <div data-testid="price" />;
+  };
+});
+
+jest.mock("../app/p/[id]/components/sidebar/coupon", () => {
+  return function MockedPaymentMethods() {
+    return <div data-testid="coupon" />;
+  };
+});
+
 describe("ProductDetails", () => {
   it("renders title", async () => {
     await act(async () => {
