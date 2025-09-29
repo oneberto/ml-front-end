@@ -3,27 +3,37 @@ import SidebarCard from "../card";
 import { IconFull } from "@/components/icons/full";
 import Tag from "@/components/tag";
 import classNames from "classnames";
+import { Product } from "@/types";
 
-type Props = {
+export type CTACheckoutProps = {
   className?: string;
-};
+} & Pick<Product, "delivery" | "isFull" | "isAvailable">;
 
-const CTACheckout = ({ className }: Props) => {
+const CTACheckout = ({
+  className,
+  delivery,
+  isAvailable,
+  isFull,
+}: CTACheckoutProps) => {
   return (
     <SidebarCard className={classNames("xl:py-6", className)}>
       <div className="mb-3">
         <Tag color="green">FRETE GRÁTIS ACIMA DE R$ 19</Tag>
 
-        <p className="text-green font-semibold">Receba grátis amanhã</p>
-        <p className="text-gray text-sm">Comprando dentro das próximas</p>
-        <p className="text-black text-sm">8 h 22 min</p>
+        <p className="text-green font-semibold">{delivery.title}</p>
+        <p className="text-gray text-sm">{delivery.subtitle}</p>
+        <p className="text-black text-sm">{delivery.timeLimit}</p>
       </div>
 
       <div className="mb-6">
-        <p className="text-black font-semibold">Estoque disponível</p>
-        <p className="text-sm text-gray flex items-center gap-1.5">
-          Armazenado e enviado pelo <IconFull />
-        </p>
+        {isAvailable && (
+          <p className="text-black font-semibold">Estoque disponível</p>
+        )}
+        {isFull && (
+          <p className="text-sm text-gray flex items-center gap-1.5">
+            Armazenado e enviado pelo <IconFull />
+          </p>
+        )}
       </div>
 
       <Button variant="primary" size="large" className="w-full mb-2">

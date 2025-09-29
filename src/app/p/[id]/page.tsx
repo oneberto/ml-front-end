@@ -8,9 +8,12 @@ import Specs from "./components/specs";
 import Details from "./components/details";
 import Description from "./components/description";
 import Sidebar, { SidebarProps } from "./components/sidebar";
-import CTACheckout from "./components/sidebar/cta-checkout";
+import CTACheckout, {
+  CTACheckoutProps,
+} from "./components/sidebar/cta-checkout";
 import React from "react";
 import { getProduct, getSeller } from "@/services/requests";
+import Coupon from "./components/sidebar/coupon";
 
 type Props = {
   params: {
@@ -45,6 +48,8 @@ const ProductDetails = async ({ params }: Props) => {
     details,
     description,
     delivery,
+    isFull,
+    isAvailable,
   } = product;
 
   const mainInformationProps: MainInformationProps = {
@@ -57,10 +62,16 @@ const ProductDetails = async ({ params }: Props) => {
     id,
   };
 
+  const ctaCheckoutProps: CTACheckoutProps = {
+    delivery,
+    isFull,
+    isAvailable,
+  };
+
   const sidebarProps: SidebarProps = {
     seller,
-    delivery,
     id,
+    ctaCheckoutProps,
   };
 
   return (
@@ -73,7 +84,9 @@ const ProductDetails = async ({ params }: Props) => {
 
               <MainInformation {...mainInformationProps} />
 
-              <CTACheckout className="block xl:hidden" />
+              <Coupon productId={id} className="block xl:hidden" />
+
+              <CTACheckout className="block xl:hidden" {...ctaCheckoutProps} />
             </div>
 
             <Divider />
