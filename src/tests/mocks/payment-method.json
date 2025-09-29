@@ -1,0 +1,56 @@
+[
+  {
+    "id": "financing",
+    "title": "Linha de Crédito",
+    "images": [
+      {
+        "url": "http://localhost:3001/images/payment-methods/mercado-pago.svg",
+        "alt": "Mercado Pago",
+        "width": 80
+      }
+    ]
+  },
+  {
+    "id": "creditCard",
+    "title": "Cartões de crédito",
+    "images": [
+      {
+        "url": "http://localhost:3001/images/payment-methods/hiper-card.svg",
+        "alt": "Hiper Card"
+      },
+      {
+        "url": "http://localhost:3001/images/payment-methods/elo.svg",
+        "alt": "Elo"
+      },
+      {
+        "url": "http://localhost:3001/images/payment-methods/visa.svg",
+        "alt": "Visa"
+      },
+      {
+        "url": "http://localhost:3001/images/payment-methods/master-card.svg",
+        "alt": "Master Card"
+      }
+    ]
+  },
+  {
+    "id": "pix",
+    "title": "Pix",
+    "images": [
+      {
+        "url": "http://localhost:3001/images/payment-methods/pix.svg",
+        "alt": "Pix"
+      }
+    ]
+  },
+  {
+    "id": "bankslip",
+    "title": "Boleto",
+    "images": [
+      {
+        "url": "http://localhost:3001/images/payment-methods/boleto.svg",
+        "alt": "Boleto",
+        "width": 30
+      }
+    ]
+  }
+]

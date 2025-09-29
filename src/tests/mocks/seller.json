@@ -1,0 +1,28 @@
+{
+  "id": "apple",
+  "isOfficial": true,
+  "title": "Apple",
+  "thumb": "http://localhost:3001/images/seller/apple-seller.png",
+  "headerImage": "http://localhost:3001/images/seller/apple-seller-header.jpg",
+  "totalProducts": 50000,
+  "totalFollowers": 10000,
+  "level": {
+    "score": 4,
+    "title": "MercadoLíder Platinum",
+    "subtitle": "É um dos melhores do site!"
+  },
+  "highlights": [
+    {
+      "title": "Vendas",
+      "subtitle": "+1 M"
+    },
+    {
+      "title": "Bom atendimento",
+      "icon": "message-positive"
+    },
+    {
+      "title": "Entrega no prazo",
+      "icon": "time-positive"
+    }
+  ]
+}

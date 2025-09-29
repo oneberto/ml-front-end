@@ -1,0 +1,115 @@
+{
+  "id": "MLB1055308835",
+  "title": "iPhone 17 de 256 GB - Lavanda - Distribuidor Autorizado",
+  "sellerId": "apple",
+  "isAvailable": true,
+  "isFull": true,
+  "condition": "Novo",
+  "sales": 100,
+  "delivery": {
+    "title": "Receba grátis amanhã",
+    "subtitle": "Comprando dentro das próximas",
+    "estimatedTime": "amanhã",
+    "timeLimit": "8 h 22 min"
+  },
+  "prices": [
+    {
+      "paymentMethod": "pix",
+      "installments": 1,
+      "amount": 719896,
+      "oldValue": 799900,
+      "isDefault": true
+    },
+    {
+      "paymentMethod": "creditCard",
+      "installments": 12,
+      "installmentAmount": 66657,
+      "amount": 799884,
+      "isSecondary": true
+    }
+  ],
+  "gallery": [
+    {
+      "miniature": "http://localhost:3001/images/product/miniature-1.webp",
+      "full": "http://localhost:3001/images/product/image-1.webp"
+    },
+    {
+      "miniature": "http://localhost:3001/images/product/miniature-2.webp",
+      "full": "http://localhost:3001/images/product/image-2.webp"
+    },
+    {
+      "miniature": "http://localhost:3001/images/product/miniature-3.webp",
+      "full": "http://localhost:3001/images/product/image-3.webp"
+    },
+    {
+      "miniature": "http://localhost:3001/images/product/miniature-4.webp",
+      "full": "http://localhost:3001/images/product/image-4.webp"
+    },
+    {
+      "miniature": "http://localhost:3001/images/product/miniature-5.webp",
+      "full": "http://localhost:3001/images/product/image-5.webp"
+    },
+    {
+      "miniature": "http://localhost:3001/images/product/miniature-6.webp",
+      "full": "http://localhost:3001/images/product/image-6.webp"
+    }
+  ],
+  "specs": [
+    {
+      "icon": "http://localhost:3001/images/product-specs/cellphone-size.svg",
+      "title": "Tamanho de tela",
+      "value": "6.3\""
+    },
+    {
+      "icon": "http://localhost:3001/images/product-specs/internal-memory.svg",
+      "title": "Memória interna",
+      "value": "256 GB"
+    },
+    {
+      "icon": "http://localhost:3001/images/product-specs/resolution-front-camera.svg",
+      "title": "Câmera frontal principal",
+      "value": "48 Mpx"
+    },
+    {
+      "icon": "http://localhost:3001/images/product-specs/resolution-rear-camera.svg",
+      "title": "Câmera traseira principal",
+      "value": "48 Mpx"
+    },
+    {
+      "icon": "http://localhost:3001/images/product-specs/fingerprint.svg",
+      "title": "Desbloqueio",
+      "value": "Reconhecimento facial"
+    },
+    {
+      "icon": "http://localhost:3001/images/product-specs/nfc.svg",
+      "title": "Com NFC",
+      "value": "Sim"
+    }
+  ],
+  "variations": [
+    {
+      "label": "Cor",
+      "value": "Lavanda"
+    },
+    {
+      "label": "Memória interna",
+      "value": "256 GB"
+    }
+  ],
+  "rating": {
+    "total": 70,
+    "average": 4
+  },
+  "details": [
+    {
+      "image": "http://localhost:3001/images/product/details-1.webp"
+    },
+    {
+      "image": "http://localhost:3001/images/product/details-2.webp"
+    },
+    {
+      "image": "http://localhost:3001/images/product/details-3.webp"
+    }
+  ],
+  "description": " <p> iPhone 17. Mais durável. Mais adorável. <br /> Tela de 6,3 polegadas com ProMotion¹, Ceramic Shield 2, câmeras traseiras de 48 MP, câmera frontal Center Stage, chip A19 e muito mais. <br /> <br />• PROJETADO PARA ENCANTAR. FEITO PARA DURAR <br />O iPhone 17 vem em cinco cores lindas, com tela de 6,3 polegadas¹ mais brilhante e parte da frente em Ceramic Shield 2, 3x mais resistente a arranhões². <br /> <br />• TELA DE 6,3 POLEGADAS COM PROMOTION. MUITO MAIS BRILHANTE <br /> Mais leveza ao navegar com ProMotion de até 120 Hz, melhor contraste em ambientes externos com 3.000 nits de pico de brilho e 33% menos reflexos.¹ <br /> <br />• FOTOS SURPREENDENTES <br /> Tire fotos em altíssima resolução por padrão com o avançado sistema de câmera dupla Fusion de 48 MP, zoom de 2x com qualidade óptica e câmera Fusion ultra-angular de 48 MP. <br /> <br />• CÂMERA FRONTAL CENTER STAGE DE 18 MP <br /> Flexibilidade para enquadrar. Selfies em grupo mais inteligentes. Vídeo com Captura Dupla para gravação simultânea das câmeras frontal e traseira. E muito mais. <br /> <br />• CHIP A19. POTÊNCIA DE SOBRA. EFICIÊNCIA NA MEDIDA <br /> Com GPU de 5 núcleos, o Neural Engine aprimorado dá conta de tudo o que você faz no iPhone, incluindo a Apple Intelligence³ e jogos AAA. <br /> <br />• DEMORA PARA GASTAR. RÁPIDA PARA RECARREGAR <br /> Bateria para o dia todo com até 30 horas de reprodução de vídeo.⁴ E até 50% de recarga em 20 minutos.⁵ <br /> <br />• iOS 26. NOVO VISUAL. AINDA MAIS MÁGICO <br /> Novo design com Liquid Glass. Lindo, cativante e instantaneamente familiar. Com uma Tela Bloqueada mais viva, fundos personalizáveis e recursos como enquetes no Mensagens, Filtragem de Ligações e muito mais.⁶ <br /> <br />• FEITO PARA APPLE INTELLIGENCE <br /> Pessoal, privada, poderosa. Escreva, se expresse e faça de tudo sem esforço.³ <br /> <br />• RECURSO ESSENCIAL DE SEGURANÇA <br /> Com a Detecção de Acidente, o iPhone é capaz de identificar um acidente grave de carro e ligar para a emergência se você não puder.⁷ <br /> <br />• MAIOR CONECTIVIDADE. VELOCIDADES ALUCINANTES <br /> Tenha velocidades mais altas com conexões seguras Wi‑Fi 7⁸, rede celular 5G⁹, Bluetooth 6 e eSIM.¹⁰ <br /> <br />• eSIM. MAIS SEGURO, PRÁTICO E FÁCIL DE USAR <br /> Aproveite maior flexibilidade, mais conveniência, melhor segurança e estabilidade na conexão, especialmente em viagens internacionais.¹⁰ O eSIM também é mais seguro, pois não pode ser removido no caso de perda ou roubo do aparelho. <br /> <br />• PRIVACIDADE <br /> Um novo nível de privacidade e segurança integradas. <br /> <br /> Aviso legal <br /> 1. A tela tem bordas arredondadas que se ajustam ao design curvo do aparelho dentro da sua forma retangular. Quando medida como um retângulo, a tela tem 6,27 polegadas (iPhone 17, iPhone 17 Pro), 6,55 polegadas (iPhone Air) ou 6,86 polegadas (iPhone 17 Pro Max) na diagonal. A área real de visualização é menor. <br /> 2. Em comparação com o iPhone da geração anterior. <br /> 3. A Apple Intelligence está disponível em versão beta. Alguns recursos podem não estar disponíveis em todas as regiões ou idiomas. Para ver a disponibilidade de recursos e idiomas, e os requisitos do sistema, acesse support.apple.com/pt-br/121115. <br /> 4. Todas as informações sobre a bateria dependem da configuração da rede e de vários outros fatores. Os resultados reais podem variar. A bateria tem um número limitado de ciclos de recarga e, se necessário, deverá ser substituída. A vida útil e a duração da bateria variam de acordo com o uso e a configuração. Consulte apple.com/br/batteries e apple.com/br/iphone/battery.html para obter mais informações. <br /> 5. Testes conduzidos pela Apple em julho de 2025 usando unidades em pré-produção do iPhone 17, iPhone Air, iPhone 17 Pro e iPhone 17 Pro Max com software em versão preliminar, cabo para recarga com conector USB-C e adaptador dinâmico de 40W da Apple com potência máxima de 60W (modelo A3351) e carregadores MagSafe da Apple (modelo A3502 de 1 metro e modelo A3503 de 2 metros) com adaptador de energia USB-C de 30W da Apple (modelo A2164) ou adaptador dinâmico de 40W da Apple com potência máxima de 60W (modelo A3351). Os testes de recarga rápida foram conduzidos com unidades descarregadas de iPhone. O tempo foi calculado do momento em que o logo da Apple aparece até o aparelho iniciar. O tempo de recarga varia de acordo com a o adaptador, os ajustes, o uso e fatores ambientais. Os resultados reais podem variar. <br /> 6. Alguns recursos podem não estar disponíveis em todos os países ou regiões. <br /> 7. O iPhone 17, o iPhone 17 Pro e o iPhone Air são capazes de identificar um acidente grave de carro e ligar para os serviços de emergência. Requer uma conexão de rede celular ou chamadas Wi-Fi8. Wi-Fi 7 está disponível nos países e regiões em que há compatibilidade. <br /> 8. Wi-Fi 7 está disponível nos países e regiões em que há compatibilidade. <br /> 9. É preciso ter um plano de dados. 5G só está disponível em alguns países e por meio de determinadas operadoras. Para obter detalhes sobre a compatibilidade com 5G, entre em contato com sua operadora e consulte apple.com/br/iphone/cellular. <br /> 10. O eSIM requer um plano de dados (que pode ter restrições a mudanças de operadora e roaming, mesmo após o término do contrato). Nem todas as operadoras dão suporte ao eSIM. O uso do eSIM pode estar desativado quando o iPhone é comprado de algumas operadoras. Consulte sua operadora para obter mais detalhes. Visite apple.com/br/esim para saber mais. <br /> </p>"
+}
