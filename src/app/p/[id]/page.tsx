@@ -60,6 +60,7 @@ const ProductDetails = async ({ params }: Props) => {
   const sidebarProps: SidebarProps = {
     seller,
     delivery,
+    id,
   };
 
   return (

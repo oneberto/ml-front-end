@@ -2,7 +2,7 @@ import classNames from "classnames";
 import { PropsWithChildren } from "react";
 
 type Props = {
-  color: "green" | "black";
+  color: "green" | "black" | "red";
   className?: string;
 };
 
@@ -27,6 +27,7 @@ const Tag = ({
 const colors = new Map<Props["color"], string>([
   ["green", "bg-green text-white"],
   ["black", "bg-black text-white"],
+  ["red", "bg-red-400 text-white"],
 ]);
 
 export default Tag;

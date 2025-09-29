@@ -24,13 +24,18 @@ export const getPaymentMethods = cache(async () => {
 });
 
 export const getProductPrices = unstable_cache(
-  async (productId: string) => {
-    const { data } = await api.post<{ prices: ProductPrice[] }>(
-      "/prices-by-product",
-      {
-        productId,
-      }
-    );
+  async (productId: string, couponCode?: string) => {
+    const { data } = await api.post<{
+      prices: ProductPrice[];
+      coupon: {
+        code: string;
+        type: string;
+        value: number;
+      };
+    }>("/prices-by-product", {
+      productId,
+      ...(!!couponCode && { couponCode }),
+    });
 
     return data;
   },

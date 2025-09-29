@@ -20,7 +20,7 @@ const Button = ({
     <button
       type={type}
       className={classNames(
-        "font-semibold",
+        "font-semibold disabled:bg-card-border",
         colors.get(variant),
         sizes.get(size),
         className
