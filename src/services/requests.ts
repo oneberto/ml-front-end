@@ -1,6 +1,12 @@
 import { cache } from "react";
 import api from "./api";
-import { PaymentMethod, Product, ProductPrice, ProductSeller } from "@/types";
+import {
+  PaymentMethod,
+  PriceCoupon,
+  Product,
+  ProductPrice,
+  ProductSeller,
+} from "@/types";
 import { unstable_cache } from "next/cache";
 
 export const getProduct = cache(async (id: string) => {
@@ -27,11 +33,7 @@ export const getProductPrices = unstable_cache(
   async (productId: string, couponCode?: string) => {
     const { data } = await api.post<{
       prices: ProductPrice[];
-      coupon: {
-        code: string;
-        type: string;
-        value: number;
-      };
+      coupon: PriceCoupon;
     }>("/prices-by-product", {
       productId,
       ...(!!couponCode && { couponCode }),
@@ -44,3 +46,9 @@ export const getProductPrices = unstable_cache(
     tags: ["get-product-price-tag"],
   }
 );
+
+export const checkCoupon = cache(async (code: string) => {
+  const { data } = await api.post<PriceCoupon>("/check-coupon", { code });
+
+  return data;
+});

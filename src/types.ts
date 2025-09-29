@@ -80,3 +80,9 @@ export type PaymentMethod = {
     width?: number;
   }>;
 };
+
+export type PriceCoupon = {
+  code: string;
+  type: string;
+  value: number;
+};

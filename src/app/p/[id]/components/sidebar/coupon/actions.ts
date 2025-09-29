@@ -1,6 +1,6 @@
 "use server";
 
-import { getProductPrices } from "@/services/requests";
+import { checkCoupon } from "@/services/requests";
 import { revalidateTag } from "next/cache";
 import { cookies } from "next/headers";
 
@@ -31,7 +31,7 @@ export const sendCoupon = async (
     }
 
     // Request prices with new coupon
-    const { coupon } = await getProductPrices(productId, code);
+    const coupon = await checkCoupon(code);
 
     if (!coupon) {
       throw new Error();
