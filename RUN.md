@@ -6,6 +6,8 @@ Este documento explica a funcionalidade de cada script disponível no projeto. U
 
 ## Scripts Disponíveis
 
+Não se esqueça de iniciar a API do repositório `https://github.com/oneberto/ml-back-end` antes!
+
 ### `npm run dev`
 
 - **Descrição:** Inicia o servidor de desenvolvimento do Next.js.

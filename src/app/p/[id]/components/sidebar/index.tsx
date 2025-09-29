@@ -18,9 +18,7 @@ const Sidebar = ({ seller, id }: SidebarProps) => {
 
       <Seller seller={seller} />
 
-      <Suspense fallback={<div />}>
-        <PaymentMethods />
-      </Suspense>
+      <PaymentMethods />
     </div>
   );
 };

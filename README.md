@@ -38,6 +38,8 @@ Este repositório implementa uma interface de detalhes de produto inspirada na [
 
 Mais informações no arquivo [RUN.md](RUN.md)
 
+Não se esqueça de iniciar a API do repositório `https://github.com/oneberto/ml-back-end` antes!
+
 1. **Instale as dependências:**
 
    ```sh
